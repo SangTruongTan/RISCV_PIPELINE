@@ -1,0 +1,73 @@
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+# Compile of Branch_Result.v was successful.
+# Compile of PC_Control.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of PC_Control_tb.v was successful.
+vsim -gui work.PC_Control_tb
+# vsim -gui work.PC_Control_tb 
+# Start time: 08:07:03 on Nov 05,2021
+# Loading work.PC_Control_tb
+add wave -position insertpoint  \
+sim:/PC_Control_tb/Br_Dectected \
+sim:/PC_Control_tb/Br_Dectected_Ex \
+sim:/PC_Control_tb/Br_Result \
+sim:/PC_Control_tb/Br_PredictedBit \
+sim:/PC_Control_tb/PC_Sel
+run
+# Compile of PC_Control_tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PC_Control_tb
+# Loading work.PC_Control
+run
+# Compile of PC_Control.v failed with 2 errors.
+# Compile of PC_Control.v failed with 2 errors.
+# Compile of PC_Control.v failed with 1 errors.
+# Compile of PC_Control.v failed with 1 errors.
+# Compile of PC_Control.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PC_Control
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 60 ns ###############
+#   Active process: /PC_Control_tb/pc_ctrl1/#ALWAYS#17 @ sub-iteration 0
+#     Source: D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v:13
+#   Active process: /PC_Control_tb/pc_ctrl1/#IMPLICIT-WIRE(PC_Sel)#13 @ sub-iteration 1
+#     Source: D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v:13
+#   Active process: /PC_Control_tb/pc_ctrl1/#ALWAYS#17 @ sub-iteration 2
+#     Source: D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v:13
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 60 ns.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of PC_Control.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PC_Control
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 60 ns.
+# Compile of PC_Control.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PC_Control
+run
+# Compile of PC_Control.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PC_Control
+run
+# Compile of PC_Control.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PC_Control
+run
+# Compile of Pattern_History.v failed with 2 errors.
+# Compile of Pattern_History.v was successful with warnings.
+# Compile of Pattern_History.v was successful with warnings.
+# Compile of Pattern_History.v was successful with warnings.
+# Compile of Pattern_History.v was successful with warnings.
+# Compile of Pattern_History.v failed with 1 errors.
+# Compile of Pattern_History.v was successful.
+# Compile of Pattern_History.v failed with 1 errors.

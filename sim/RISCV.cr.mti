@@ -1,0 +1,228 @@
+D:/FPGA/CompurterAchitecture/RISCV/src/branch_comp.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/branch_comp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module branch_comp
+
+Top level modules:
+	branch_comp
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/ALU_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/ALU_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/REGBank_tb.v {2 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/REGBank_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module REGBank_tb
+** Warning: D:/FPGA/CompurterAchitecture/RISCV/tb/REGBank_tb.v(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	REGBank_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM_ADDJ
+
+Top level modules:
+	DMEM_ADDJ
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM_tb
+
+Top level modules:
+	DMEM_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2_tb
+
+Top level modules:
+	Mux2_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/ROMDecoder_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/ROMDecoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROMDecoder_tb
+
+Top level modules:
+	ROMDecoder_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM_ADDJ_tb
+
+Top level modules:
+	DMEM_ADDJ_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Dectector_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Dectector_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Branch_Dectector_tb
+
+Top level modules:
+	Branch_Dectector_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/REGBank.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/REGBank.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module REGBank
+
+Top level modules:
+	REGBank
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/ALU.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IMEM_Test
+
+Top level modules:
+	IMEM_Test
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/PC.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/ROMDecoder.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/ROMDecoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROMDecoder
+
+Top level modules:
+	ROMDecoder
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2
+
+Top level modules:
+	Mux2
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Result_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Result_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Branch_Result_tb
+
+Top level modules:
+	Branch_Result_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/ImmGen.v {2 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/ImmGen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ImmGen
+** Warning: D:/FPGA/CompurterAchitecture/RISCV/src/ImmGen.v(19): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: D:/FPGA/CompurterAchitecture/RISCV/src/ImmGen.v(20): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	ImmGen
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/add4.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/add4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add4
+
+Top level modules:
+	add4
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC_tb
+
+Top level modules:
+	PC_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux4
+
+Top level modules:
+	Mux4
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Dectector.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Dectector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Branch_Dectector
+
+Top level modules:
+	Branch_Dectector
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/ROMControl.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/ROMControl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROMControl
+
+Top level modules:
+	ROMControl
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/branch_comp_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/branch_comp_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module branch_comp_tb
+
+Top level modules:
+	branch_comp_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/PC_Control.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/PC_Control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC_Control
+
+Top level modules:
+	PC_Control
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IMEM
+
+Top level modules:
+	IMEM
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/add4_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/add4_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add4_tb
+
+Top level modules:
+	add4_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/ImmGen_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/ImmGen_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ImmGen_tb
+
+Top level modules:
+	ImmGen_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Result.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Result.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Branch_Result
+
+Top level modules:
+	Branch_Result
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISCV_tb
+
+Top level modules:
+	RISCV_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROMControl_tb
+
+Top level modules:
+	ROMControl_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC_Control_tb
+
+Top level modules:
+	PC_Control_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM
+
+Top level modules:
+	DMEM
+
+} {} {}}
