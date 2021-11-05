@@ -66,7 +66,7 @@ w1633793393
 8D:/FPGA/CompurterAchitecture/RISCV/src/ALU.v
 FD:/FPGA/CompurterAchitecture/RISCV/src/ALU.v
 !i122 399
-Z11 L0 1 33
+L0 1 33
 R5
 r1
 !s85 0
@@ -160,12 +160,12 @@ w1636028847
 8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Dectector.v
 FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Dectector.v
 !i122 424
-Z12 L0 1 24
+Z11 L0 1 24
 R5
 r1
 !s85 0
 31
-Z13 !s108 1636029479.000000
+Z12 !s108 1636029479.000000
 !s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Dectector.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Dectector.v|
 !i113 1
@@ -184,7 +184,7 @@ w1636029597
 8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Dectector_tb.v
 FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Dectector_tb.v
 !i122 426
-R12
+R11
 R5
 r1
 !s85 0
@@ -244,6 +244,54 @@ r1
 R7
 R8
 n@branch_@result_tb
+vBranch_Target
+!s110 1636115100
+!i10b 1
+!s100 Oc;g29U_Ff2<8f4eW35292
+R1
+ImiT>0VYk@9WJLE8ZC@:<=1
+R2
+R3
+w1636115096
+8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Target.v
+FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Target.v
+!i122 466
+L0 1 55
+R5
+r1
+!s85 0
+31
+!s108 1636115100.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Target.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Target.v|
+!i113 1
+R7
+R8
+n@branch_@target
+vBranch_Target_tb
+!s110 1636116080
+!i10b 1
+!s100 8l04gC<DPPdNfCKDa[Q;z2
+R1
+IQ=z3Ez:dOZ5=3haljKKGe0
+R2
+R3
+w1636116076
+8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Target_tb.v
+FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Target_tb.v
+!i122 470
+L0 2 43
+R5
+r1
+!s85 0
+31
+!s108 1636116080.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Target_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Branch_Target_tb.v|
+!i113 1
+R7
+R8
+n@branch_@target_tb
 vDMEM
 R0
 !i10b 1
@@ -256,7 +304,7 @@ w1633873764
 8D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
 FD:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
 !i122 401
-Z14 L0 2 42
+Z13 L0 2 42
 R5
 r1
 !s85 0
@@ -293,7 +341,7 @@ R7
 R8
 n@d@m@e@m_@a@d@d@j
 vDMEM_ADDJ_tb
-Z15 !s110 1636029479
+Z14 !s110 1636029479
 !i10b 1
 !s100 BY0R1nAeHSLJTdeEJU=g@0
 R1
@@ -317,7 +365,7 @@ R7
 R8
 n@d@m@e@m_@a@d@d@j_tb
 vDMEM_tb
-R15
+R14
 !i10b 1
 !s100 koM<IAI`j<U`2i99a4T4o0
 R1
@@ -328,18 +376,90 @@ w1633701498
 8D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
 FD:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
 !i122 415
-R14
+R13
 R5
 r1
 !s85 0
 31
-R13
+R12
 !s107 D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v|
 !i113 1
 R7
 R8
 n@d@m@e@m_tb
+vForward_Control
+!s110 1636126374
+!i10b 1
+!s100 m37XZ:0df549`=h7<]4of3
+R1
+IHM3QMV9S4;_S>:SoIb5^o3
+R2
+R3
+w1636125947
+8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v
+FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v
+!i122 479
+L0 1 45
+R5
+r1
+!s85 0
+31
+!s108 1636126374.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v|
+!i113 1
+R7
+R8
+n@forward_@control
+vForward_Control_tb
+!s110 1636128372
+!i10b 1
+!s100 gYz4efUl>i8azMDgFX2CQ0
+R1
+IIVBzQe0]?lGoGRGG1Fj^F0
+R2
+R3
+w1636128369
+8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Forward_Control_tb.v
+FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Forward_Control_tb.v
+!i122 486
+L0 2 39
+R5
+r1
+!s85 0
+31
+!s108 1636128372.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Forward_Control_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Forward_Control_tb.v|
+!i113 1
+R7
+R8
+n@forward_@control_tb
+vFSM_2bit
+!s110 1636098187
+!i10b 1
+!s100 YZ`b0SCJ`0^kheUg8jgPF1
+R1
+IUD0`TT;7AfaZA<iD1^]lX2
+R2
+R3
+w1636098115
+8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/sim/FSM_2bit.v
+FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/sim/FSM_2bit.v
+!i122 445
+L0 1 25
+R5
+r1
+!s85 0
+31
+!s108 1636098187.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/sim/FSM_2bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/sim/FSM_2bit.v|
+!i113 1
+R7
+R8
+n@f@s@m_2bit
 vIMEM
 R0
 !i10b 1
@@ -365,7 +485,7 @@ R7
 R8
 n@i@m@e@m
 vIMEM_Test
-R15
+R14
 !i10b 1
 !s100 O8i45]j>DAn?^ZZ?@cSID3
 R1
@@ -381,7 +501,7 @@ R5
 r1
 !s85 0
 31
-R13
+R12
 !s107 D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v|
 !i113 1
@@ -413,7 +533,7 @@ R7
 R8
 n@imm@gen
 vImmGen_tb
-R15
+R14
 !i10b 1
 !s100 aDIWfmRcT7Q8XailNCfc83
 R1
@@ -429,7 +549,7 @@ R5
 r1
 !s85 0
 31
-R13
+R12
 !s107 D:/FPGA/CompurterAchitecture/RISCV/tb/ImmGen_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/ImmGen_tb.v|
 !i113 1
@@ -444,11 +564,11 @@ R1
 I;W^F>fU4V=9diLX1z=8LR2
 R2
 R3
-Z16 w1633706462
+Z15 w1633706462
 8D:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v
 FD:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v
 !i122 405
-L0 1 15
+Z16 L0 1 15
 R5
 r1
 !s85 0
@@ -461,14 +581,14 @@ R7
 R8
 n@mux2
 vMux2_tb
-R15
+R14
 !i10b 1
 !s100 z^KSDlj`cL0Q@^LNbGlXd0
 R1
 IaD:YiCHlW7B1JOV<e_Tbi0
 R2
 R3
-R16
+R15
 8D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v
 FD:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v
 !i122 418
@@ -477,7 +597,7 @@ R5
 r1
 !s85 0
 31
-R13
+R12
 !s107 D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v|
 !i113 1
@@ -509,49 +629,73 @@ R7
 R8
 n@mux4
 vPattern_History
-!s110 1636081637
+!s110 1636102620
 !i10b 1
-!s100 TUlm:jZPCCCmTg5ZI@jgn2
+!s100 ;9TloFF01kcKMg1h1?LC73
 R1
-IbOj5IWefkL5kEXc]oHf0c1
+IzEkn@l9z4[Mon5@5@AjNb0
 R2
 R3
-w1636081633
+w1636102615
 8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Pattern_History.v
 FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Pattern_History.v
-!i122 443
-R11
+!i122 461
+Z17 L0 1 41
 R5
 r1
 !s85 0
 31
-!s108 1636081637.000000
+!s108 1636102620.000000
 !s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Pattern_History.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Pattern_History.v|
 !i113 1
 R7
 R8
 n@pattern_@history
-vPC
-R9
+vPattern_History_tb
+!s110 1636099883
 !i10b 1
-!s100 T>BhhAc9aUNA;2aCF7]Si3
+!s100 cLPlnlUeRH8@YFk8Tl^D<2
 R1
-Io@nHVR]ThKh<3<>dV5QAM0
+IJA5GgIRg=XSKTX@6oUhBD1
 R2
 R3
-w1633697907
-8D:/FPGA/CompurterAchitecture/RISCV/src/PC.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/PC.v
-!i122 407
-L0 1 12
+w1636099880
+8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Pattern_History_tb.v
+FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Pattern_History_tb.v
+!i122 452
+L0 2 40
 R5
 r1
 !s85 0
 31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/PC.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/PC.v|
+!s108 1636099883.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Pattern_History_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Pattern_History_tb.v|
+!i113 1
+R7
+R8
+n@pattern_@history_tb
+vPC
+!s110 1636117715
+!i10b 1
+!s100 F7@fdl=@^lQCWNYE2Yof@1
+R1
+IXn?gWzLK@[9Y1D^ZefY^h1
+R2
+R3
+w1636117710
+8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/PC.v
+FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/PC.v
+!i122 472
+R16
+R5
+r1
+!s85 0
+31
+!s108 1636117715.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/PC.v|
 !i113 1
 R7
 R8
@@ -568,7 +712,7 @@ w1636076565
 8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/PC_Control.v
 FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/PC_Control.v
 !i122 438
-L0 1 41
+R17
 R5
 r1
 !s85 0
@@ -605,25 +749,25 @@ R7
 R8
 n@p@c_@control_tb
 vPC_tb
-R15
+!s110 1636119379
 !i10b 1
-!s100 GnbzbAFX?0QjU^nWITYEa2
+!s100 JE=Z>oW9?U7Wg52lmYC;f0
 R1
-I]=Io1c3;?lHnB`JDaOV4j1
+IF_ajiO1co^GdnOc3TzOCI3
 R2
 R3
-R16
-8D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v
-!i122 419
-L0 2 18
+w1636119372
+8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_tb.v
+FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_tb.v
+!i122 477
+L0 2 22
 R5
 r1
 !s85 0
 31
-R13
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v|
+!s108 1636119379.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_tb.v|
 !i113 1
 R7
 R8
@@ -653,7 +797,7 @@ R7
 R8
 n@r@e@g@bank
 vREGBank_tb
-R15
+R14
 !i10b 1
 !s100 =>iGMTHObjn>2JU>Og2I61
 R1
@@ -669,7 +813,7 @@ R5
 r1
 !s85 0
 31
-R13
+R12
 !s107 D:/FPGA/CompurterAchitecture/RISCV/tb/REGBank_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/REGBank_tb.v|
 !i113 1
@@ -677,7 +821,7 @@ R7
 R8
 n@r@e@g@bank_tb
 vRISCV_tb
-R15
+R14
 !i10b 1
 !s100 k`eW32g;KZJ[RTR?`Y7;Q0
 R1
@@ -693,7 +837,7 @@ R5
 r1
 !s85 0
 31
-R13
+R12
 !s107 D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v|
 !i113 1
@@ -725,7 +869,7 @@ R7
 R8
 n@r@o@m@control
 vROMControl_tb
-R15
+R14
 !i10b 1
 !s100 ]SF<1H[m=;M4XEN0692:_3
 R1
@@ -741,7 +885,7 @@ R5
 r1
 !s85 0
 31
-R13
+R12
 !s107 D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v|
 !i113 1
@@ -773,7 +917,7 @@ R7
 R8
 n@r@o@m@decoder
 vROMDecoder_tb
-R15
+R14
 !i10b 1
 !s100 SSQIg9DkDD1nBF=_CK8<n2
 R1
@@ -789,7 +933,7 @@ R5
 r1
 !s85 0
 31
-R13
+R12
 !s107 D:/FPGA/CompurterAchitecture/RISCV/tb/ROMDecoder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/ROMDecoder_tb.v|
 !i113 1

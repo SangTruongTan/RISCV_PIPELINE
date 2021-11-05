@@ -7,18 +7,18 @@ module FSM_2bit (x, state_old, rst, state);
 
 always @(*) begin
     if (rst) 
-    state = NTS;
+    state <= NTS;
     else
     begin
     case (state_old)
-    NTS: if (x) state = NTW;
-        else state = NTS;
-    NTW: if (x) state = TS;
-        else state = NTS;
-    TW: if (x) state = TS;
-        else state = NTS;
-    TS: if (x) state = TS;
-        else state = TW;
+    NTS: if (x) state <= NTW;
+        else state <= NTS;
+    NTW: if (x) state <= TS;
+        else state <= NTS;
+    TW: if (x) state <= TS;
+        else state <= NTS;
+    TS: if (x) state <= TS;
+        else state <= TW;
     endcase
     end 
 end
