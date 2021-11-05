@@ -1,73 +1,189 @@
+# Reading pref.tcl
+# OpenFile D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/sim/RISCV.mpf
+# Loading project RISCV
 # ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
 # ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
-# Compile of Branch_Result.v was successful.
-# Compile of PC_Control.v was successful.
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+# Compile of DFF.v was successful.
+# Compile of DFF.v was successful.
+# Compile of fetch_tb.v was successful.
 # 2 compiles, 0 failed with no errors.
-# Compile of PC_Control_tb.v was successful.
-vsim -gui work.PC_Control_tb
-# vsim -gui work.PC_Control_tb 
-# Start time: 08:07:03 on Nov 05,2021
-# Loading work.PC_Control_tb
+vsim -gui work.fetch_tb
+# vsim -gui work.fetch_tb 
+# Start time: 19:22:10 on Nov 05,2021
+# Loading work.fetch_tb
+# Loading work.DFF_fetch
 add wave -position insertpoint  \
-sim:/PC_Control_tb/Br_Dectected \
-sim:/PC_Control_tb/Br_Dectected_Ex \
-sim:/PC_Control_tb/Br_Result \
-sim:/PC_Control_tb/Br_PredictedBit \
-sim:/PC_Control_tb/PC_Sel
-run
-# Compile of PC_Control_tb.v was successful.
+sim:/fetch_tb/rst \
+sim:/fetch_tb/Q \
+sim:/fetch_tb/pc_d \
+sim:/fetch_tb/N \
+sim:/fetch_tb/inst_d \
+sim:/fetch_tb/en \
+sim:/fetch_tb/D \
+sim:/fetch_tb/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 7136
+#           Attempting to use alternate WLF file "./wlftn8435f".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftn8435f
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.PC_Control_tb
-# Loading work.PC_Control
 run
-# Compile of PC_Control.v failed with 2 errors.
-# Compile of PC_Control.v failed with 2 errors.
-# Compile of PC_Control.v failed with 1 errors.
-# Compile of PC_Control.v failed with 1 errors.
-# Compile of PC_Control.v was successful.
+# Compile of DFF_reg.v was successful.
+# Compile of DFF_reg_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.DFF_reg_tb
+# End time: 19:33:29 on Nov 05,2021, Elapsed time: 0:11:19
+# Errors: 0, Warnings: 4
+# vsim -gui work.DFF_reg_tb 
+# Start time: 19:33:29 on Nov 05,2021
+# Loading work.DFF_reg_tb
+# Loading work.DFF_reg
+add wave -position insertpoint  \
+sim:/DFF_reg_tb/rst \
+sim:/DFF_reg_tb/rs2_x \
+sim:/DFF_reg_tb/rs1_x \
+sim:/DFF_reg_tb/Q \
+sim:/DFF_reg_tb/pc_x \
+sim:/DFF_reg_tb/N \
+sim:/DFF_reg_tb/inst_x \
+sim:/DFF_reg_tb/en \
+sim:/DFF_reg_tb/D \
+sim:/DFF_reg_tb/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 7136
+#           Attempting to use alternate WLF file "./wlfteb3ev0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfteb3ev0
+run
+# Compile of DFF_reg.v was successful.
+# Compile of DFF_reg_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.PC_Control
+# Loading work.DFF_reg_tb
+# Loading work.DFF_reg
 run
-#############  Autofindloop Analysis  ###############
-#############  Loop found at time 60 ns ###############
-#   Active process: /PC_Control_tb/pc_ctrl1/#ALWAYS#17 @ sub-iteration 0
-#     Source: D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v:13
-#   Active process: /PC_Control_tb/pc_ctrl1/#IMPLICIT-WIRE(PC_Sel)#13 @ sub-iteration 1
-#     Source: D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v:13
-#   Active process: /PC_Control_tb/pc_ctrl1/#ALWAYS#17 @ sub-iteration 2
-#     Source: D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v:13
-################# END OF LOOP #################
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 60 ns.
+# Compile of fetch_tb.v was successful.
+# Compile of DFF_reg.v was successful.
+# Compile of DFF_reg_tb.v was successful.
+# Compile of DFF_ex.v was successful.
+# Compile of DFF_ex_tb.v was successful.
+# 5 compiles, 1 failed with no errors.
+# Compile of fetch_tb.v was successful.
+# Compile of DFF_reg.v was successful.
+# Compile of DFF_reg_tb.v was successful.
+# Compile of DFF_ex.v was successful.
+# Compile of DFF_ex_tb.v was successful.
+# 5 compiles, 1 failed with no errors.
+# Compile of fetch_tb.v was successful.
+# Compile of DFF_reg.v was successful.
+# Compile of DFF_reg_tb.v was successful.
+# Compile of DFF_ex.v was successful.
+# Compile of DFF_ex_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.DFF_ex_tb
+# End time: 19:46:05 on Nov 05,2021, Elapsed time: 0:12:36
+# Errors: 0, Warnings: 7
+# vsim -gui work.DFF_ex_tb 
+# Start time: 19:46:05 on Nov 05,2021
+# Loading work.DFF_ex_tb
+# ** Error: (vsim-3033) Instantiation of 'DFF_ex' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /DFF_ex_tb File: D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/DFF_ex_tb.v Line: 15
+#         Searched libraries:
+#             D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/sim/work
+# Error loading design
+# End time: 19:46:05 on Nov 05,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of fetch_tb.v was successful.
+# Compile of DFF_reg.v was successful.
+# Compile of DFF_reg_tb.v was successful.
+# Compile of DFF_ex.v was successful.
+# Compile of DFF_ex_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.DFF_ex_tb
+# vsim -gui work.DFF_ex_tb 
+# Start time: 19:46:41 on Nov 05,2021
+# Loading work.DFF_ex_tb
+# Loading work.DFF_ex
+add wave -position insertpoint  \
+sim:/DFF_ex_tb/rst \
+sim:/DFF_ex_tb/rs2_m \
+sim:/DFF_ex_tb/Q \
+sim:/DFF_ex_tb/pc_m \
+sim:/DFF_ex_tb/N \
+sim:/DFF_ex_tb/inst_m \
+sim:/DFF_ex_tb/en \
+sim:/DFF_ex_tb/D \
+sim:/DFF_ex_tb/clk \
+sim:/DFF_ex_tb/alu_m
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 7136
+#           Attempting to use alternate WLF file "./wlft2sh5mc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2sh5mc
+run
+# Compile of fetch_tb.v failed with 2 errors.
+# Compile of N_Branchcomp.v was successful.
+# Compile of N_Branchcomp_tb.v was successful.
+# 3 compiles, 1 failed with 2 errors.
+vsim -gui work.N_Branchcomp_tb
+# End time: 20:25:08 on Nov 05,2021, Elapsed time: 0:38:27
+# Errors: 0, Warnings: 7
+# vsim -gui work.N_Branchcomp_tb 
+# Start time: 20:25:08 on Nov 05,2021
+# Loading work.N_Branchcomp_tb
+# Loading work.N_Branchcomp
+add wave -position insertpoint  \
+sim:/N_Branchcomp_tb/WIDTH_CONTROL_LENGTH \
+sim:/N_Branchcomp_tb/jump \
+sim:/N_Branchcomp_tb/Inst \
+sim:/N_Branchcomp_tb/BrLT \
+sim:/N_Branchcomp_tb/BrEq
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 7136
+#           Attempting to use alternate WLF file "./wlftanndze".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftanndze
+run
+# Compile of fetch_tb.v was successful.
+# Compile of N_Branchcomp_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Compile of PC_Control.v was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.PC_Control
+# Loading work.N_Branchcomp_tb
 run
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 60 ns.
-# Compile of PC_Control.v was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.PC_Control
+vsim -gui work.DFF_ex_tb
+# End time: 21:06:02 on Nov 05,2021, Elapsed time: 0:40:54
+# Errors: 0, Warnings: 1
+# vsim -gui work.DFF_ex_tb 
+# Start time: 21:06:02 on Nov 05,2021
+# Loading work.DFF_ex_tb
+# Loading work.DFF_ex
+vsim -gui work.DFF_reg_tb
+# End time: 21:06:12 on Nov 05,2021, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 1
+# vsim -gui work.DFF_reg_tb 
+# Start time: 21:06:12 on Nov 05,2021
+# Loading work.DFF_reg_tb
+# Loading work.DFF_reg
+add wave -position insertpoint  \
+sim:/DFF_reg_tb/rst \
+sim:/DFF_reg_tb/rs2_x \
+sim:/DFF_reg_tb/rs1_x \
+sim:/DFF_reg_tb/Q \
+sim:/DFF_reg_tb/pc_x \
+sim:/DFF_reg_tb/N \
+sim:/DFF_reg_tb/inst_x \
+sim:/DFF_reg_tb/en \
+sim:/DFF_reg_tb/D \
+sim:/DFF_reg_tb/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 7136
+#           Attempting to use alternate WLF file "./wlftk4rexf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftk4rexf
 run
-# Compile of PC_Control.v was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.PC_Control
-run
-# Compile of PC_Control.v was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.PC_Control
-run
-# Compile of Pattern_History.v failed with 2 errors.
-# Compile of Pattern_History.v was successful with warnings.
-# Compile of Pattern_History.v was successful with warnings.
-# Compile of Pattern_History.v was successful with warnings.
-# Compile of Pattern_History.v was successful with warnings.
-# Compile of Pattern_History.v failed with 1 errors.
-# Compile of Pattern_History.v was successful.
-# Compile of Pattern_History.v failed with 1 errors.
+# End time: 23:06:24 on Nov 05,2021, Elapsed time: 2:00:12
+# Errors: 0, Warnings: 3
