@@ -389,23 +389,23 @@ R7
 R8
 n@d@m@e@m_tb
 vForward_Control
-!s110 1636126374
+!s110 1636190724
 !i10b 1
-!s100 m37XZ:0df549`=h7<]4of3
+!s100 NbYnYWQD7ifjOe9@D>fQ22
 R1
-IHM3QMV9S4;_S>:SoIb5^o3
+IYJ8@XgiH:oI^M]he9YCkd3
 R2
 R3
-w1636125947
+w1636190718
 8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v
 FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v
-!i122 479
+!i122 487
 L0 1 45
 R5
 r1
 !s85 0
 31
-!s108 1636126374.000000
+!s108 1636190724.000000
 !s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v|
 !i113 1
@@ -413,23 +413,23 @@ R7
 R8
 n@forward_@control
 vForward_Control_tb
-!s110 1636128372
+!s110 1636191255
 !i10b 1
-!s100 gYz4efUl>i8azMDgFX2CQ0
+!s100 YRZ?6F0`kmUYObfSHo6kf0
 R1
-IIVBzQe0]?lGoGRGG1Fj^F0
+IzSaXdI42ZmS6a@_hahLig0
 R2
 R3
-w1636128369
+w1636191247
 8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Forward_Control_tb.v
 FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Forward_Control_tb.v
-!i122 486
+!i122 489
 L0 2 39
 R5
 r1
 !s85 0
 31
-!s108 1636128372.000000
+!s108 1636191254.000000
 !s107 D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Forward_Control_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Forward_Control_tb.v|
 !i113 1

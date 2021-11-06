@@ -5,7 +5,7 @@ wire Br_Dec;
 
 Branch_Dectector br_dec1 (.Inst(Inst),
                           .clk(clk),
-                          .Br_Dectected(Br_Dec));
+                          .Br_Detected(Br_Dec));
 
 initial begin
     #0 clk = 1'b0;

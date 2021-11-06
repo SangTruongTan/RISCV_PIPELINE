@@ -1,13 +1,13 @@
 module Branch_Dectector (
     Inst,
     clk,
-    Br_Dectected
+    Br_Detected
 );
     parameter WIDTH_DATA_LENGTH = 32;
     parameter WIDTH_CONTROL_LENGTH = 5;
     input clk;
     input [WIDTH_DATA_LENGTH - 1:0] Inst;
-    output reg Br_Dectected;
+    output reg Br_Detected;
     reg [WIDTH_CONTROL_LENGTH - 1:0] Ctrl;
 
 
@@ -15,10 +15,10 @@ module Branch_Dectector (
 
     always @(posedge clk or Ctrl) begin
         case (Ctrl)
-            8'b11000: Br_Dectected = 1'b1;
-            8'b11011: Br_Dectected = 1'b1;
-            8'b11001: Br_Dectected = 1'b1;
-            default:  Br_Dectected = 1'b0;
+            8'b11000: Br_Detected = 1'b1;
+            8'b11011: Br_Detected = 1'b1;
+            8'b11001: Br_Detected = 1'b1;
+            default:  Br_Detected = 1'b0;
         endcase
     end
 endmodule

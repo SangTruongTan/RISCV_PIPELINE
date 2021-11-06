@@ -5,14 +5,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	PC
 
-} {} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Stall_Control.v {0 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Stall_Control.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Forward_Control
+-- Compiling module Stall_Control
+** Error: D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Stall_Control.v(46): (vlog-2730) Undefined variable: 'Br_Detected'.
 
-Top level modules:
-	Forward_Control
-
-} {} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_tb.v
+} {4.0 5.0} {}} D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module PC_tb
 

@@ -10,7 +10,7 @@ module Forward_Control_tb;
     reg [4:0]Rs2_ID;
     wire [1:0]Fw_1;
     wire [1:0]Fw_2;
-    wire Fw_Dectected;
+    wire [1:0]Fw_Detected;
 
     Forward_Control fw_ctrl (.EX_MEM_RegWEN(EX_MEM_RegWEN),
                              .MEM_WB_RegWEN(MEM_WB_RegWEN),
@@ -20,7 +20,7 @@ module Forward_Control_tb;
                              .Rs2_ID(Rs2_ID),
                              .Fw_1(Fw_1),
                              .Fw_2(Fw_2),
-                             .Fw_Dectected(Fw_Dectected));
+                             .Fw_Detected(Fw_Detected));
     initial begin
         #0  EX_MEM_RegWEN = 1;
             Rd_EX = 5'b0000_0;
