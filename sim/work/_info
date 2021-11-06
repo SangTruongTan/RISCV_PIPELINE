@@ -208,7 +208,7 @@ w1636072754
 8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Result.v
 FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Branch_Result.v
 !i122 430
-L0 1 31
+Z14 L0 1 31
 R5
 r1
 !s85 0
@@ -628,6 +628,54 @@ R10
 R7
 R8
 n@mux4
+vN_Branchcomp
+!s110 1636118653
+!i10b 1
+!s100 3oz>;C=0Po>zKeUk@a5z43
+R1
+ITnB7?ln>YG18j>U>O5QL52
+R2
+R16
+w1636083874
+8D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/N_Branchcomp.v
+FD:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/N_Branchcomp.v
+!i122 471
+R14
+R5
+r1
+!s85 0
+31
+!s108 1636118653.000000
+!s107 D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/N_Branchcomp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/N_Branchcomp.v|
+!i113 1
+R7
+R8
+n@n_@branchcomp
+vN_Branchcomp_tb
+R15
+!i10b 1
+!s100 O8NV?URBLQUYaoN:PDOEX3
+R1
+IAS3]JcY[Hj1k`=OOQ=Oik2
+R2
+R16
+w1636118925
+8D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/N_Branchcomp_tb.v
+FD:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/N_Branchcomp_tb.v
+!i122 487
+Z25 L0 2 50
+R5
+r1
+!s85 0
+31
+R18
+!s107 D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/N_Branchcomp_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/N_Branchcomp_tb.v|
+!i113 1
+R7
+R8
+n@n_@branchcomp_tb
 vPattern_History
 !s110 1636102620
 !i10b 1
@@ -736,7 +784,7 @@ w1636074566
 8D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v
 FD:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/PC_Control_tb.v
 !i122 433
-L0 2 50
+R25
 R5
 r1
 !s85 0
