@@ -10,15 +10,13 @@ module DFF_ex
 initial begin
   Q = {N{1'b0}};
 end
-always@(posedge clk or rst)
+always@(posedge clk )
 begin
   if(rst)
     Q <= {N{1'b0}};
   else 
     if (en)
     Q <= D;
-    else 
-    Q = {N{1'b0}};
 end
 
 endmodule

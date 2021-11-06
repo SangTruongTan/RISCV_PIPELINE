@@ -1,23 +1,16 @@
-D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/DFF_reg.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/DFF_reg.v
+D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/DFF_fetch.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/DFF_fetch.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module DFF_reg
+-- Compiling module DFF_fetch
 
 Top level modules:
-	DFF_reg
+	DFF_fetch
 
-} {} {}} D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/DFF_reg_tb.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/DFF_reg_tb.v
+} {} {}} D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/N_Branchcomp_tb.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/N_Branchcomp_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module DFF_reg_tb
+-- Compiling module N_Branchcomp_tb
 
 Top level modules:
-	DFF_reg_tb
-
-} {} {}} D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/N_Branchcomp.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/N_Branchcomp.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module N_Branchcomp
-
-Top level modules:
-	N_Branchcomp
+	N_Branchcomp_tb
 
 } {} {}} D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/fetch_tb.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/fetch_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -26,6 +19,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	fetch_tb
 
+} {} {}} D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/N_Branchcomp.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/N_Branchcomp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module N_Branchcomp
+
+Top level modules:
+	N_Branchcomp
+
 } {} {}} D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/DFF_ex_tb.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/DFF_ex_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module DFF_ex_tb
@@ -33,11 +33,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DFF_ex_tb
 
-} {} {}} D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/DFF_ex.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/src/DFF_ex.v
+} {} {}} D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/DFF_reg_tb.v {1 {vlog -work work -stats=none D:/HK211/CTMT/Project/Pipeline/RISCV_PIPELINE/tb/DFF_reg_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module DFF_ex
+-- Compiling module DFF_reg_tb
 
 Top level modules:
-	DFF_ex
+	DFF_reg_tb
 
 } {} {}}

@@ -25,8 +25,13 @@ initial begin
     #50 pc_d= 8'd10;
         inst_d = 8'd10;
     #60 en = 1'b0;
-    #70 pc_d= 8'd20;
-         inst_d = 8'd21;
+        pc_d= 8'd20;
+        inst_d = 8'd21;
+    #30 en =1'b0;
+        pc_d= 8'd25;
+        inst_d = 8'd25;
+    #70 pc_d= 8'd30;
+        inst_d = 8'd40;   
     #10 en = 1'b1;
     #83 rst = 1'b1;
 end
