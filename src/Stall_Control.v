@@ -7,7 +7,8 @@ module Stall_Control (
     FE_DE_Reg_EN,
     DE_EX_Reg_EN,
     DE_EX_Reg_RST,
-    EX_MEM_Reg_RST
+    EX_MEM_Reg_RST,
+    Stall_Detected
 );
 /****************** Decleration ******************/
     parameter WIDTH_DATA_LENGTH = 32;
@@ -21,6 +22,7 @@ module Stall_Control (
     output reg DE_EX_Reg_EN;
     output reg DE_EX_Reg_RST;
     output reg EX_MEM_Reg_RST;
+    output reg Stall_Detected;
     wire Load_Inst;
 /****************** Assignment ******************/  
     assign Load_Inst = !(|(Inst[6:2]));
@@ -33,7 +35,7 @@ module Stall_Control (
         DE_EX_Reg_EN = 1'b1;
         DE_EX_Reg_RST = 1'b0;
         EX_MEM_Reg_RST = 1'b0;
-
+        Stall_Detected = 1'b0;
     end
 
 /****************** Always function ******************/  
@@ -43,13 +45,17 @@ module Stall_Control (
         DE_EX_Reg_EN = 1'b1;
         DE_EX_Reg_RST = 1'b0;
         EX_MEM_Reg_RST = 1'b0;
-        if((Br_result != 2'b01)& (Br_Detected)) begin        //Not result 01
-            DE_EX_Reg_RST = 1'b1;
-        end else if (Load_Inst & (Fw_Detected == MEM_Fw)) begin
+        Stall_Detected = 1'b0;
+        if (Load_Inst & (Fw_Detected == MEM_Fw)) begin
             PC_Fetch_EN = 1'b0;
             FE_DE_Reg_EN = 1'b0;
             DE_EX_Reg_EN = 1'b0;
             EX_MEM_Reg_RST = 1'b1;
+            Stall_Detected = 1'b1;
+            $display("%0t: Stall", $time);
+        end else if((Br_result != 2'b01)& (Br_Detected)) begin        //Not result 01
+            DE_EX_Reg_RST = 1'b1;
+            $display("%0t: Branch Stall", $time);
         end
     end
     

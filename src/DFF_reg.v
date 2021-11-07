@@ -1,5 +1,5 @@
 module DFF_reg 
-#(  parameter N = 128 )
+#(  parameter N = 182 )
 (
     input   clk,
     input   rst,

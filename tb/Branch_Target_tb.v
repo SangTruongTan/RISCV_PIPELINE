@@ -9,19 +9,21 @@ module Branch_Target_tb;
     reg [WIDTH_DATA_LENGTH - 1:0] PC_Ex;
     reg [WIDTH_DATA_LENGTH - 1:0] PC_ALU;
     reg Br_Detected;
+    reg Stall_Detected;
     reg clk;
     wire Hit;
     wire [WIDTH_DATA_LENGTH - 1:0] Target_Add;
-
     Branch_Target br_tar (.clk(clk),
                           .PC(PC),
                           .PC_Ex(PC_Ex),
                           .PC_ALU(PC_ALU),
                           .Br_Detected(Br_Detected),
                           .Hit(Hit),
-                          .Target_Add(Target_Add));
+                          .Target_Add(Target_Add),
+                          .Stall_Detected(Stall_Detected));
     initial begin
-        #0 clk = 1'b0;
+        #0  Stall_Detected = 1'b0;
+            clk = 1'b0;
             PC = 32'h1234_0000;
             PC_ALU = 32'hFFFF_AAAA;
             Br_Detected = 1'b0;
@@ -29,6 +31,8 @@ module Branch_Target_tb;
         #10 Br_Detected = 1'b1;
         #10 PC = 32'h1234_0004;
             PC_ALU = 32'h1414_1414;
+            Stall_Detected = 1'b1;
+        #10 Stall_Detected = 1'b0;
         #10 PC = 32'h1234_0000;
             PC_ALU = 32'hAAAA_AAAA;
         #10 Br_Detected = 1'b0;

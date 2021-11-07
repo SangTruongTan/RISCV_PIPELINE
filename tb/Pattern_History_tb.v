@@ -7,12 +7,14 @@ module Pattern_History_tb;
     reg Br_Detected;
     reg Br_Comp_Result;
     reg clk;
+    reg Stall_Detected;
     wire Br_PredictedBit;
 
 Pattern_History parttern_his (.clk(clk),
                               .Br_Detected(Br_Detected),
                               .Br_Comp_Result(Br_Comp_Result),
-                              .Br_PredictedBit(Br_PredictedBit));
+                              .Br_PredictedBit(Br_PredictedBit),
+                              .Stall_Detected(Stall_Detected));
     
     initial begin
        #0 clk = 1'b0;

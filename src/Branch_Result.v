@@ -4,7 +4,7 @@ module Branch_Result (
     PC_ALU,
     clk,
     Execute,
-    Result
+    Result,
 );
     parameter WIDTH_DATA_LENGTH = 32;
     input clk;

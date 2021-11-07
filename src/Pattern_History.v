@@ -2,7 +2,8 @@ module Pattern_History (
     Br_Detected,
     Br_Comp_Result,
     clk,
-    Br_PredictedBit
+    Br_PredictedBit,
+    Stall_Detected
 );
 /****************** Decleration ******************/
     parameter WIDTH_PATERN_LENGTH = 3;
@@ -10,6 +11,7 @@ module Pattern_History (
     input Br_Detected;
     input Br_Comp_Result;
     input clk;
+    input Stall_Detected;
     output reg Br_PredictedBit;
     wire [1:0] temp;
     reg [WIDTH_PATERN_LENGTH -1:0] GHR;
@@ -32,7 +34,7 @@ FSM_2bit sm (.x(Br_Comp_Result),
     assign Br_PredictedBit = BHB[GHR][1];
 /****************** Always function ******************/  
     always @(posedge clk ) begin
-        if(Br_Detected) begin
+        if(Br_Detected & (!Stall_Detected)) begin
             BHB[GHR] = temp;
             //            GHR = {Br_Comp_Result, GHR[7:1]};
             GHR = {Br_Comp_Result, GHR[WIDTH_PATERN_LENGTH - 1:1]};

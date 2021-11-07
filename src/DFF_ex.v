@@ -1,5 +1,5 @@
 module DFF_ex 
-#(  parameter N = 128 )
+#(  parameter N = 182 )
 (
     input   clk,
     input   rst,

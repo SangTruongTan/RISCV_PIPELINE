@@ -1,40 +1,7 @@
 # Compile of Forward_Control.v was successful.
 # Compile of Forward_Control_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
-# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
-vsim -gui work.Forward_Control_tb
-# vsim -gui work.Forward_Control_tb 
-# Start time: 16:25:38 on Nov 06,2021
-# Loading work.Forward_Control_tb
-# Loading work.Forward_Control
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'Fw_Dectected'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/src/Forward_Control.v(10).
-#    Time: 0 ps  Iteration: 0  Instance: /Forward_Control_tb/fw_ctrl File: D:/FPGA/CompurterAchitecture/RISCV_PIPELINE/tb/Forward_Control_tb.v Line: 15
-add wave -position insertpoint  \
-sim:/Forward_Control_tb/Fw_1 \
-sim:/Forward_Control_tb/Fw_2 \
-sim:/Forward_Control_tb/Fw_Dectected \
-sim:/Forward_Control_tb/MEM_Fw \
-sim:/Forward_Control_tb/MEM_WB_RegWEN \
-sim:/Forward_Control_tb/No_Fw \
-sim:/Forward_Control_tb/Rd_EX \
-sim:/Forward_Control_tb/Rd_MA \
-sim:/Forward_Control_tb/Rs1_ID \
-sim:/Forward_Control_tb/Rs2_ID
-run
-# Compile of Forward_Control_tb.v was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.Forward_Control_tb
-run
-quit sim
-# unknown switch: sim
-sim quit
-# bad option "quit": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
-quit -sim
-# End time: 16:58:30 on Nov 06,2021, Elapsed time: 0:32:52
-# Errors: 0, Warnings: 2
-# Compile of Stall_Control.v failed with 11 errors.
-# Compile of Stall_Control.v failed with 7 errors.
-# Compile of Stall_Control.v failed with 6 errors.
-# Compile of Stall_Control.v failed with 1 errors.
+# Compile of Stall_Control.v was successful.
+# Compile of Stall_Control_tb.v was successful.
+# Compile of Branch_Target.v was successful.
+# Compile of Branch_Target_tb.v was successful.
+# 6 compiles, 0 failed with no errors.

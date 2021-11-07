@@ -5,7 +5,8 @@ module Branch_Target (
     Br_Detected,
     clk,
     Hit,
-    Target_Add
+    Target_Add,
+    Stall_Detected
 );
 /****************** Decleration ******************/
     parameter WIDTH_DATA_LENGTH = 32;
@@ -17,6 +18,7 @@ module Branch_Target (
     input [WIDTH_DATA_LENGTH - 1:0] PC_ALU;
     input Br_Detected;
     input clk;
+    input Stall_Detected;
     output reg Hit;
     output reg [WIDTH_DATA_LENGTH - 1:0] Target_Add;
 
@@ -47,7 +49,7 @@ module Branch_Target (
 
 /****************** Always function ******************/  
     always @(posedge clk ) begin
-        if(Br_Detected) begin
+        if(Br_Detected & (!Stall_Detected)) begin
             TAG[Entry_Ex] = PC_tag_Ex;
             PR_PC[Entry_Ex] = PC_ALU;
         end

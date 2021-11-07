@@ -1,5 +1,5 @@
-module DFF_wb 
-#(  parameter N = 84 )
+module DFF_mem
+#(  parameter N = 148 )
 (
     input   clk,
     input   rst,

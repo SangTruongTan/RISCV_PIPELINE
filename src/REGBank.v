@@ -39,7 +39,7 @@ module REGBank (
         end
     end
 
-    always @(posedge clk ) begin
+    always @(negedge clk ) begin
         if (RegWEn == 1'b1) begin
             if (AddrD != 5'h00) begin
                 REG[AddrD] = DataD;
