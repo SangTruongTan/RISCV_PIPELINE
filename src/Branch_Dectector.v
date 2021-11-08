@@ -15,9 +15,9 @@ module Branch_Dectector (
 
     always @(posedge clk or Ctrl) begin
         case (Ctrl)
-            8'b11000: Br_Detected = 1'b1;
-            8'b11011: Br_Detected = 1'b1;
-            8'b11001: Br_Detected = 1'b1;
+            5'b11000: Br_Detected = 1'b1;
+            5'b11011: Br_Detected = 1'b1;
+            5'b11001: Br_Detected = 1'b1;
             default:  Br_Detected = 1'b0;
         endcase
     end

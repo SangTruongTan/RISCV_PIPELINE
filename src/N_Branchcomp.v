@@ -25,7 +25,7 @@ module N_Branchcomp (BrEq, BrLT, Inst, jump);
          //J type, unConditional Branch
             11'b?_???_11011_?_?: jump = 1'b1;   //JAL
             11'b?_000_11001_?_?: jump = 1'b1;   //JALR
-            default: jump = 1'b0;
+            default: ;
         endcase
     end
 endmodule

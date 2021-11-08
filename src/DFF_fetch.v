@@ -8,7 +8,7 @@ module DFF_fetch
     output reg [N-1:0] Q 
 );
 initial begin
-  Q = {N{1'b0}};
+  Q = {{32{1'b0}}, -32'd4};
 end
 always@(posedge clk )
 begin

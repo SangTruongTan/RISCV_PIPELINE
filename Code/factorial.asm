@@ -1,3 +1,4 @@
+add zero, zero, zero
 addi t1, zero, 10
 sw t1, 40(zero)
 lw	a0,40(zero)

@@ -52,10 +52,10 @@ module Stall_Control (
             DE_EX_Reg_EN = 1'b0;
             EX_MEM_Reg_RST = 1'b1;
             Stall_Detected = 1'b1;
-            $display("%0t: Stall", $time);
+           // $display("%0t: Stall", $time);
         end else if((Br_result != 2'b01)& (Br_Detected)) begin        //Not result 01
             DE_EX_Reg_RST = 1'b1;
-            $display("%0t: Branch Stall", $time);
+           // $display("%0t: Branch Stall", $time);
         end
     end
     

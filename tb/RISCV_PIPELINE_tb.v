@@ -11,7 +11,7 @@ module RISCV_PIPELINE_tb;
     wire [31:0] PC4_NEW;
     wire [31:0] PC_ALU;             //
     wire [31:0] PC4_OLD;
-    wire [2:0] PC_SEL;
+    wire [1:0] PC_SEL;
     wire [31:0] PC_MUX;
     wire [31:0] PC_FE;
     wire [31:0] Inst_FE;
@@ -50,7 +50,7 @@ module RISCV_PIPELINE_tb;
     wire [31:0] DataB_Mux_MEM;
     wire [31:0] Inst_MEM;
     wire [31:0] ROM_DATA_MEM;
-    wire [31:0] DMEM;
+//    wire [31:0] DMEM;
     wire [31:0] Data_WB_MEM;
     wire memRW;
     wire [1:0] dataIn;
@@ -116,17 +116,18 @@ module RISCV_PIPELINE_tb;
 //    assign PC4_OLD = PC_EX + 4;
 
     //PC block
-    PC pc_1 (.port_in(PC_MUX),
-             .clock(clk),
-             .enable(PC_Fetch_EN),
-             .port_out(PC_FE));
+    assign PC_FE = PC_MUX;
+    // PC pc_1 (.port_in(PC_MUX),
+    //          .clock(clk),
+    //          .enable(PC_Fetch_EN),
+    //          .port_out(PC_FE));
     //PC plus 4
-    add4 add4_1 (.port_in(PC_FE),
+    add4 add4_1 (.port_in(PC_DE),
                  .port_out(PC4_NEW));
     
     //IMEM
     IMEM imem_1 (.inst(Inst_FE),
-                 .Pc(PC_FE));
+                 .PC(PC_FE));
     
     //Fetch to Decode stage resister bank
     wire [63:0] FetOut_Bus;
@@ -190,7 +191,7 @@ module RISCV_PIPELINE_tb;
             PC_Predicted_EX, ROM_DATA_EX,
             DataB_EX, DataA_EX,
             Inst_EX, PC_EX} = ExIn_Bus;
-    DFF_reg dff_dec_ex (.clk(clk),
+    DFF_ex dff_dec_ex (.clk(clk),
                         .rst(DE_EX_Reg_RST),
                         .en(DE_EX_Reg_EN),
                         .D(DecOut_Bus),
@@ -324,7 +325,7 @@ module RISCV_PIPELINE_tb;
                          Inst_MEM};           
     assign {ROM_DATA_WB, DATA_WB_WB,
             Inst_WB} = WbIn_Bus;
-    DFF_mem dff_ex_mem (.clk(clk),
+    DFF_wb dff_mem_wb (.clk(clk),
                         .rst(1'b0),
                         .en(1'b1),
                         .D(MemOut_Bus),

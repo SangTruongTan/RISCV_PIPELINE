@@ -1,20 +1,22 @@
-addi a0, zero,5
-addi a1, a0, 10
-add a1, a1, a0
-addi a2, zero,0
-addi t2, zero, 0
-addi t1, a1, 0
-sw a1, 0(zero)
-addi a1, zero, 175
-sb a1, 4(zero)
-addi a1, zero, 145
-sb a1, 5(zero)
-addi a1, zero, 40
-sb a1, 6(zero)
-addi a1, zero, 50
-sb a1, 7(zero)
-lw a2, 4(zero)
-lb a3, 4(zero)
-lh a4, 4(zero)
-lhu a5, 4(zero)
-lbu a6, 4(zero)
+add zero, zero, zero
+addi t1, zero, 10
+sw t1, 44(zero)
+  	andi t0, t0, 0
+  	andi t1, t0, 0
+  	addi t1, t1, 1
+  
+  #Transmit value
+	lw	t3,44(zero)
+  	addi    t3, t3, -1
+  # fibonnaci program
+fib:
+  	beq t3, zero, finish_fi
+  	add t2, t1, t0
+  	mv t0, t1
+  	mv t1, t2
+  	addi t3, t3, -1
+  	j fib
+finish_fi:
+
+  	# ends the program and store value
+  	sw t2,88(zero)

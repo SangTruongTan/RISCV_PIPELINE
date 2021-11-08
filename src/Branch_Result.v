@@ -4,7 +4,7 @@ module Branch_Result (
     PC_ALU,
     clk,
     Execute,
-    Result,
+    Result
 );
     parameter WIDTH_DATA_LENGTH = 32;
     input clk;
@@ -18,7 +18,11 @@ module Branch_Result (
 
     always @(*) begin
                 case (Temp)
-                    2'b00: Result = 2'b01;      //Right Predicted
+                    2'b00: begin
+                        Result = 2'b01;      //Right Predicted
+                        $display("Right Predicted");
+                    end
+
                     2'b01: Result = 2'b10;      //Return PC + 4
                     2'b10: Result = 2'b11;      //PC_ALU 
                     2'b11: if (PC_Pre != PC_ALU) begin
